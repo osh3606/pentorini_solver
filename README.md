@@ -1,3 +1,64 @@
+# Pentorini Solver
+
+This repository contains a solver for Pentorini puzzles, a variation of the classic Pentomino puzzle. What makes Pentorini unique is that the puzzle configuration changes daily based on the current date and day of the week.
+
+## Project Overview
+
+This project provides both a Command Line Interface (CLI) version and a Graphical User Interface (GUI) version of the Pentorini solver.
+
+-   **CLI Version**: Displays text-based puzzle solutions.
+-   **GUI Version**: Displays graphic-based puzzle solutions (recommended).
+
+## Features
+
+*   Provides solutions for Pentorini puzzles based on the current date and day of the week, with cell selection, via both CLI and GUI.
+
+## Getting Started
+
+### Prerequisites
+
+The program was developed based on Python 3.12.11. Running it with this version will provide the best results. You can check your Python version with the following command:
+
+```bash
+python --version
+```
+
+Install the necessary dependencies using `pip`:
+
+```bash
+pip install -r requirement.txt
+```
+
+### Running the Solver
+
+#### CLI Version
+
+To run the CLI solver, execute `solver.py`:
+
+```bash
+python solver.py
+```
+
+#### GUI Version
+
+To start the GUI application, execute `gui.py`:
+
+```bash
+python gui.py
+```
+
+## Project Structure
+
+```
+.
+├── gui.py                # Graphic User Interface source code
+├── README.md             # This README file
+├── requirement.txt       # Python dependencies
+└── solver.py             # Core puzzle solving logic (CLI version)
+```
+
+---
+
 # Pentorini Solver (펜토리니 솔버)
 
 이 저장소는 고전 펜토미노 퍼즐의 변형인 펜토리니 퍼즐을 위한 솔버를 포함합니다. 펜토리니의 독특한 점은 퍼즐 구성이 현재 날짜와 요일에 따라 매일 바뀐다는 것입니다.
@@ -59,66 +120,6 @@ python gui.py
 
 ---
 
-# Pentorini Solver
-
-This repository contains a solver for Pentorini puzzles, a variation of the classic Pentomino puzzle. What makes Pentorini unique is that the puzzle configuration changes daily based on the current date and day of the week.
-
-## Project Overview
-
-This project provides both a Command Line Interface (CLI) version and a Graphical User Interface (GUI) version of the Pentorini solver.
-
--   **CLI Version**: Displays text-based puzzle solutions.
--   **GUI Version**: Displays graphic-based puzzle solutions (recommended).
-
-## Features
-
-*   Provides solutions for Pentorini puzzles based on the current date and day of the week, with cell selection, via both CLI and GUI.
-
-## Getting Started
-
-### Prerequisites
-
-The program was developed based on Python 3.12.11. Running it with this version will provide the best results. You can check your Python version with the following command:
-
-```bash
-python --version
-```
-
-Install the necessary dependencies using `pip`:
-
-```bash
-pip install -r requirement.txt
-```
-
-### Running the Solver
-
-#### CLI Version
-
-To run the CLI solver, execute `solver.py`:
-
-```bash
-python solver.py
-```
-
-#### GUI Version
-
-To start the GUI application, execute `gui.py`:
-
-```bash
-python gui.py
-```
-
-## Project Structure
-
-```
-.
-├── gui.py                # Graphic User Interface source code
-├── README.md             # This README file
-├── requirement.txt       # Python dependencies
-└── solver.py             # Core puzzle solving logic (CLI version)
-```
-
----
 
 # Pentorini Solver (ペントリニソルバー)
 
