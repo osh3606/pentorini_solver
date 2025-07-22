@@ -183,7 +183,7 @@ def print_board(board):
         print("No solution found.")
         return
     # For better visual distinction of pieces
-    piece_chars = ".ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    piece_chars = "▣★○●◎◇◆□■▽▼♣♡"
     for row in board:
         print(" ".join(piece_chars[val] if val != -1 else 'X' for val in row))
 
